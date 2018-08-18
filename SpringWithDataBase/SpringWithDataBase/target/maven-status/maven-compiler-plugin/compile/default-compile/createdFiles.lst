@@ -1,0 +1,5 @@
+com\spring\controller\PersonConfiguration.class
+com\spring\controller\LoginController.class
+com\spring\controller\PersonService.class
+com\spring\controller\Personalinformation.class
+com\spring\controller\WebappInitializer.class
