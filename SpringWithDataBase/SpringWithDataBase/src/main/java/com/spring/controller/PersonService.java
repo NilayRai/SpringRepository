@@ -15,7 +15,6 @@ public class PersonService {
 
 	public void addperson(Personalinformation personalinformation) {
 		htemp.save(personalinformation);
-		System.out.println("Hello Java");
 	}
 
 }
