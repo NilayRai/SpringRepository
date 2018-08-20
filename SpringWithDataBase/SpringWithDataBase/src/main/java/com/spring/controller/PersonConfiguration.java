@@ -24,6 +24,7 @@ public class PersonConfiguration {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 		resolver.setPrefix("/");
 		resolver.setSuffix(".jsp");
+		int d=23;
 		return resolver;
 	}
 
