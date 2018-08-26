@@ -22,6 +22,7 @@ public class Personalinformation {
 	}
 
 	public void setName(String name) {
+		System.out.println("Hello Java");
 		this.name = name;
 	}
 
