@@ -17,7 +17,7 @@ public class LoginController {
 
 		ModelAndView m = new ModelAndView();
 		m.addObject(new Personalinformation());
-		System.out.println("Controller");
+		System.out.println("Controler");
 		m.setViewName("login");
 		return m;
 
