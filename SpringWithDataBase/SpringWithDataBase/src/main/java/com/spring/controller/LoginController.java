@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class LoginControllerdemo {
+public class LoginController{
 	@Autowired
 	PersonService personservice;
 
