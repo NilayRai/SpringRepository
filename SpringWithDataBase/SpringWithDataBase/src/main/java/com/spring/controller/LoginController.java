@@ -18,12 +18,10 @@ public class LoginController {
 		ModelAndView m = new ModelAndView();
 		m.addObject(new Personalinformation());
 		System.out.println("Controler");
-<<<<<<< HEAD
+
 		System.out.println("Hello mahendra Nilay Bhai");
 		System.out.println("Hello Software India");
-=======
-		System.out.println("Hello Java India");
->>>>>>> branch 'master' of https://github.com/NilayRai/SpringRepository.git
+
 		m.setViewName("login");
 		return m;
 
