@@ -18,7 +18,7 @@ public class LoginController {
 		ModelAndView m = new ModelAndView();
 		m.addObject(new Personalinformation());
 		System.out.println("Controler");
-		System.out.println("Hello mahendra Nilay Bhai");
+		System.out.println("Hello Java India");
 		m.setViewName("login");
 		return m;
 
