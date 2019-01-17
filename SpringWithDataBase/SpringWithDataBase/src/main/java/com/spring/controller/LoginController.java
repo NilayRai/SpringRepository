@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class LoginController{
+public class LoginController {
 	@Autowired
 	PersonService personservice;
 
 	@RequestMapping(value = "/abc", method = RequestMethod.GET)
 	public ModelAndView login() {
-
+		System.out.println("Hello mahendra");
 		ModelAndView m = new ModelAndView();
 		m.addObject(new Personalinformation());
 		System.out.println("Controler");
