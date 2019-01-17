@@ -15,6 +15,7 @@ public class LoginController {
 	@RequestMapping(value = "/abc", method = RequestMethod.GET)
 	public ModelAndView login() {
 		System.out.println("Hello mahendra");
+		System.out.println("India");
 		ModelAndView m = new ModelAndView();
 		m.addObject(new Personalinformation());
 		System.out.println("Controler");
