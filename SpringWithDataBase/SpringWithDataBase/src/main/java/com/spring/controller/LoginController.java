@@ -19,6 +19,7 @@ public class LoginController {
 		m.addObject(new Personalinformation());
 		System.out.println("Controler");
 		System.out.println("Hello mahendra Nilay Bhai");
+		System.out.println("Hello Software India");
 		m.setViewName("login");
 		return m;
 
