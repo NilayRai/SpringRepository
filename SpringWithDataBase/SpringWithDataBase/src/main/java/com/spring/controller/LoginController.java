@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class LoginController {
 	@Autowired
 	PersonService personservice;
-
+int k=10;
 	@RequestMapping(value = "/abc", method = RequestMethod.GET)
 	public ModelAndView login() {
 		System.out.println("Hello mahendra");
