@@ -31,6 +31,7 @@ int plks=25;
 	@RequestMapping(value = "/addcontact.jlc", method = RequestMethod.POST)
 	public ModelAndView addDetails(@ModelAttribute("personalinformation") Personalinformation personalinformation) {
 		personservice.addperson(personalinformation);
+		int l=8;
 		return new ModelAndView("welcome", "personalinformation", personalinformation);
 
 	}
